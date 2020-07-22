@@ -8,7 +8,7 @@ Let's make an ATM app! You will practice the dark art of manipulating components
 Clone this repo, and run `npm install` from inside it. The repo already includes a partial React app. To launch the app, run `npm start`.
 
 ### In `src/App.js`:
-1. Pass a `name` property to each `Account` component, one for "Checking", the other for "Savings".  These will be used and accessed as `props`for our component. **Note**: in classes, we use `this.props` instead of just `props`. We don't need to pass them as an argument in classes either.
+1. Pass a `name` property to each `Account` component, one for "Checking", the other for "Savings".  These will be used and accessed as `props`for our component.
 
 
 ### In `src/Account.js`
@@ -20,7 +20,7 @@ Clone this repo, and run `npm install` from inside it. The repo already includes
 3. Add a `balance` property to `state`, and set to 0 initially, in the Account component.
 
 
-4. Create an event listener that stores the current value in the input to state. This code will be similar to what you did in the password validator code along. You will need two variables in state, one to store the current balance, one to store what is typed in the input box. (**Hint**: all input data is stored as a string, you will need to convert the data to an integer! Check out `parseInt()`)
+4. Create an event listener that stores the current value in the input to state. You will need two variables in state, one to store the current balance, one to store what is typed in the input box. (**Hint**: all input data is stored as a string, you will need to convert the data to an integer! Check out `parseInt()`)
 
 5. When the `Deposit` button is clicked, you should add the amount entered in the text field to the balance
 
