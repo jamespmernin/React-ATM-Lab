@@ -29,8 +29,7 @@ Clone this repo, and run `npm install` from inside it. The repo already includes
 6. When the `Withdraw` button is clicked, you should deduct the amount entered in the text field to the balance.  **You should not be able to withdraw more than the current balance**
 
 
-7. If the current balance is 0, you should add a class of `zero` to the `<div className="balance">`. You can complete these computations in the render method, but before the JSX portion is returned.
-
+7. If the current balance is 0, you should add a class of `zero` to the `<div className="balance">`.
 #### Bonus: 
 
 - Handling an edge case
